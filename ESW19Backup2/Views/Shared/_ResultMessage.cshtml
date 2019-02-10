@@ -1,0 +1,74 @@
+﻿
+@{
+    if (ViewData["Success"] != null)
+    {
+        <div class="alert alert-success alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Sucesso!</strong> @ViewData["Success"]
+        </div>
+
+    }
+    else if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Sucesso!</strong> @TempData["Success"]
+        </div>
+
+    }
+    else if (TempData["Successo"] != null)
+    {
+        <div class="alert alert-success alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Sucesso!</strong> @TempData["Successo"]
+        </div>
+    }
+    else if (TempData["Successso"] != null)
+    {
+        <div class="alert alert-success alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Sucesso!</strong> @TempData["Successso"]
+        </div>
+    }
+
+    else if (TempData["SucessoSO"] != null)
+    {
+        <div class="alert alert-success alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Sucesso!</strong> @TempData["SucessoSO"]
+        </div>
+
+    }
+    else if (TempData["SucessoV"] != null)
+    {
+        <div class="alert alert-success alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Sucesso!</strong> @TempData["SucessoV"]
+        </div>
+
+    }
+
+    else if (TempData["SucessoRO"] != null)
+    {
+        <div class="alert alert-success alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Sucesso!</strong> @TempData["SucessoRO"]
+        </div>
+
+    }
+    if (ViewData["Error_Code"] != null)
+    {
+        <div class="alert alert-danger alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>ERRO @ViewData["Error_Code"] - </strong> @ViewData["Error_Message"]
+        </div>
+    }
+    else if (TempData["Error_Code"] != null)
+    {
+        <div class="alert alert-danger alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>ERRO @TempData["Error_Code"] - </strong> @TempData["Error_Message"]
+        </div>
+    }
+}
+

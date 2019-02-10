@@ -1,0 +1,404 @@
+﻿@model ESW19Backup2.Models.Upload.FilesViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Index";
+}
+
+
+
+<style>
+    /* Always set the map height explicitly to define the size of the div
+                * element that contains the map. */
+    #map {
+        height: 500px;
+        width: 420px;
+        position: relative;
+    }
+
+    .upload-btn-wrapper {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+
+
+
+
+
+
+    .zone {
+        margin: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: radial-gradient(ellipse at center,#EB6A5A 0,#c9402f 100%);
+        width: 100%;
+        height: 10%;
+        border: 5px dashed white;
+        text-align: center;
+        color: white;
+        z-index: 20;
+        transition: all 0.3s ease-out;
+        box-shadow: 0 0 0 1px rgba(255,255,255,.05),inset 0 0 .25em 0 rgba(0,0,0,.25);
+    }
+
+
+    .active {
+        background: #EB6A5A;
+        color: white;
+    }
+
+
+
+    i {
+        text-align: center;
+        font-size: 10em;
+        color: #fff;
+        margin-top: 50px;
+    }
+
+    .selectFile {
+        height: 50px;
+        margin: 20px auto;
+        position: relative;
+        width: 200px;
+    }
+
+    #lb, #file {
+        cursor: pointer;
+        display: block;
+        height: 50px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+
+
+    #lb {
+        background: #fff;
+        /*color: #EB6A5A;*/
+        display: inline-block;
+        font-size: 1.2em;
+        line-height: 50px;
+        padding: 0;
+        text-align: center;
+        white-space: nowrap;
+        text-transform: uppercase;
+        font-weight: 400;
+        box-shadow: 0 1px 1px gray;
+    }
+
+
+
+
+
+    .zone.in {
+        color: white;
+        border-color: white;
+        background: radial-gradient(ellipse at center,#EB6A5A 0,#c9402f 100%);
+    }
+
+    i {
+        color: #fff;
+    }
+
+    #lb {
+        background: #fff;
+        color: #EB6A5A;
+    }
+
+
+
+    .zone.hover {
+        color: gray;
+        border-color: white;
+        background: #fff;
+        border: 5px dashed gray;
+    }
+
+    i {
+        color: #EB6A5A;
+    }
+
+    #lb {
+        background: #fff;
+        color: #EB6A5A;
+    }
+
+
+
+    .zone.fade {
+        transition: all 0.3s ease-out;
+        opacity: 1;
+    }
+
+    .wpb_text_column .wpb_wrapper p {
+        margin-top: 0px;
+        width: 100%;
+        float: left;
+    }
+
+    h5 {
+        line-height: 20px;
+        font-weight: 500;
+        margin-top: 0;
+        color: #555;
+        font-size: 15px;
+        font-family: Raleway;
+        display: block;
+    }
+
+    .vc_separator.vc_sep_color_peacoc .vc_sep_line {
+        border-color: #4CADC9;
+    }
+
+    .vc_separator.vc_sep_double .vc_sep_line {
+        border-bottom: 1px solid #EBEBEB;
+        border-top: 1px solid #EBEBEB;
+        height: 3px;
+    }
+
+    .vc_separator .vc_sep_holder .vc_sep_line {
+        height: 1px;
+        border-top: 1px solid #EBEBEB;
+        display: block;
+        position: relative;
+        top: 1px;
+        width: 100%;
+    }
+
+    .vc_separator.vc_separator_align_center h4 {
+        padding: 0 .8em;
+    }
+
+    .vc_separator h4 {
+        line-height: 1em;
+        font-size: 100%;
+        margin: 0;
+        word-wrap: break-word;
+        -webkit-box-flex: 0;
+        flex: 0 1 auto;
+    }
+
+    h4 {
+        font-weight: 700;
+        color: #000;
+        font-size: 16px;
+        font-family: Raleway;
+        display: block;
+    }
+
+    .vc_separator.vc_sep_color_peacoc .vc_sep_line {
+        border-color: #4CADC9;
+    }
+
+    .vc_separator.vc_sep_double .vc_sep_line {
+        border-bottom: 1px solid #EBEBEB;
+        border-top: 1px solid #EBEBEB;
+        height: 3px;
+    }
+
+    .vc_separator .vc_sep_holder .vc_sep_line {
+        height: 1px;
+        border-top: 1px solid #EBEBEB;
+        display: block;
+        position: relative;
+        top: 1px;
+        width: 100%;
+    }
+
+    .vc_separator.vc_separator_align_center h4 {
+        padding: 0 .8em;
+    }
+
+    .vc_separator h4 {
+        line-height: 1em;
+        font-size: 100%;
+        margin: 0;
+        word-wrap: break-word;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+    }
+
+    .vc_separator.vc_sep_color_peacoc .vc_sep_line {
+        border-color: #4CADC9;
+    }
+
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+
+    ul, menu, dir {
+        list-style-type: disc;
+    }
+
+    .vc_custom_1520128825440 {
+        margin-top: 25px !important;
+        padding-top: 15px !important;
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+        background-color: #eaf4f4 !important;
+        float: right;
+        width: 30%;
+    }
+
+    .vc_col-sm-4 {
+        position: relative;
+        min-height: 1px;
+        box-sizing: border-box;
+    }
+
+    .wpb_wrapper {
+        position: relative;
+        float: left;
+        width: 70%;
+    }
+</style>
+<div class="wpb_wrapper">
+    <div class="wpb_content_element dynamic_page_header "><h4 style=" color:#516AE8 ">Espaço participativo</h4><h1 style="font-size:30px; color:#222222">Reportar ocorrências</h1></div>
+    <div class="wpb_text_column wpb_content_element " style="margin-top: 0px; width:100%; float:left">
+        <div class="wpb_wrapper" style="margin-top: 0px; width:100%; float:left; font-size: 20px">
+            <p style="margin-top: 0px; width:100%; float:left"><strong><img class="size-full wp-image-2473 alignleft" src="https://www.jf-coja.pt/wp-content/uploads/2016/02/espacoparticipativopage.png" alt="" width="150" height="95"></strong>Este espaço foi criado para permitir aos visitantes, reportar à AlberCool as mais variadas situações relativas a abuso ou um mau comportamento perante algum animal.</p>
+            <p style="text-align: justify;">Tendo por base esta filosofia, a AlberCool, disponibiliza&nbsp;aos seus visitantes um serviço baseado no conceito da cidadania responsável e participativa.</p>
+            <p style="text-align: justify;">Com fotografia ou apenas em texto, todos os relatos são encaminhados para este&nbsp;estabelicimento.</p>
+            <h5 style="text-align: justify;"><span style="color: #008000; font-size: 25px">Preencha o formulário lateral.</span></h5>
+
+        </div>
+    </div>
+    <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_double vc_sep_pos_align_center vc_sep_color_peacoc vc_separator-has-text">
+        <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4 style="font-size: 25px">Como localizar uma ocorrência</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+    </div>
+    <div class="wpb_text_column wpb_content_element ">
+        <div class="wpb_wrapper" style="font-size:20px">
+            <ul>
+                <li>Preencha os campos obrigatórios</li>
+                <li>
+                    Localize a ocorrência<br>
+                    <strong>Se estiver a reportar da ocorrência no próprio local</strong><br>
+                    No mapa, ja esta as coordenadas em latitude e longitude, é so colocar na caixa que diz <strong>localização</strong>
+                </li>
+                <li>&gt; <strong>Caso contrario</strong>.<strong>Se não estiver no local</strong>, coloque na caixa de texto a localidade da ocorrência (ex. Manteigadas ou Bonfim ).</li>
+
+            </ul>
+
+        </div>
+    </div>
+</div>
+<div class="vc_col-sm-4 wpb_column column_container with_padding vc_custom_1520128825440" style="padding:" data-animation="" data-delay="0">
+    <div class="wpb_wrapper">
+        <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_juicy_pink vc_separator-has-text">
+            <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_icon_element-align-left">
+                <div class="vc_icon_element-inner vc_icon_element-color-sky vc_icon_element-size-sm vc_icon_element-style- vc_icon_element-background-color-grey">
+                    <span class="vc_icon_element-icon fa fa-paper-plane"></span>
+                </div>
+            </div>
+            <h4>REPORTAR OCORRÊNCIA</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+        </div><div role="form" class="wpcf7" id="wpcf7-f3049-p3042-o1" lang="pt-PT" dir="ltr">
+            <div class="screen-reader-response"></div>
+        </div>
+    </div>
+
+    <form asp-controller="ReportarOcorrencias" asp-action="UploadFile" method="post"
+          enctype="multipart/form-data">
+        @*<div class="form-group">
+                <label asp-for="TiposDeAjuda" class="control-label"></label>:
+                <select typeof="text" asp-for="TiposDeAjuda.tipos" class="form-control"
+                        asp-items="@(new SelectList(ViewBag.ListaPrioridades))"></select>
+                <span asp-validation-for="TiposDeAjuda.tipos" class="text-danger"></span>
+            </div>*@
+
+        <div class="form-group" style="margin-top:20px">
+            <label asp-for="Descricao" class="control-label"></label>
+            <input asp-for="Descricao" class="form-control" />
+            <span asp-validation-for="Descricao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Propriedade" class="control-label"></label>
+            <input asp-for="Propriedade" class="form-control" />
+            <span asp-validation-for="Propriedade" class="text-danger"></span>
+        </div>
+
+        <div id="map"></div>
+
+
+        <div class="form-group">
+            <label asp-for="Localizacao" class="control-label"></label>
+            <input asp-for="Localizacao" class="form-control" />
+            <span asp-validation-for="Localizacao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="file" name="file" />
+        </div>
+
+        <div class="btn btn-primary" style="border: 1px solid #eaf4f4; background-color:#eaf4f4">
+            <input type="submit" value="Upload File" class="btn btn-default" />
+        </div>
+
+
+        @*<div class="form-group">
+                <input type="submit" value="Carregar" class="btn btn-default" />
+            </div>*@
+    </form>
+
+</div>
+
+
+
+<script>
+    // Note: This example requires that you consent to location sharing when
+    // prompted by your browser. If you see the error "The Geolocation service
+    // failed.", it means you probably did not give permission for the browser to
+    // locate you.
+    var map, infoWindow;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: 37.440399, lng: -121.870499 },
+            zoom: 18
+        });
+        infoWindow = new google.maps.InfoWindow;
+
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                var pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                };
+
+                infoWindow.setPosition(pos);
+                infoWindow.setContent('Localização encontrada, Posição em latitude de ' + pos.lat + ' e longitude de ' + pos.lng);
+                infoWindow.setContent(map);
+                infoWindow.open(map);
+                map.setCenter(pos);
+            }, function () {
+                handleLocationError(true, infoWindow, map.getCenter());
+            });
+        } else {
+            // Browser doesn't support Geolocation
+            handleLocationError(false, infoWindow, map.getCenter());
+        }
+    }
+
+    function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(browserHasGeolocation ?
+            'Error: The Geolocation service failed.' :
+            'Error: Your browser doesn\'t support geolocation.');
+        infoWindow.open(map);
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr5dfvn0-pCLkb2rQ0DtV5x6s5mtZXQ94&callback=initMap">
+</script>

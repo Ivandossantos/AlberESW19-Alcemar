@@ -1,0 +1,70 @@
+﻿@model ESW19Backup2.Models.Apoios.Apadrinhar
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="flex_column av_one_full  flex_column_div first  zapp-builder-el-21  el_after_av_one_fifth  el_before_av_hr  column-top-margin" style="border-width:2px; border-color:#0070e8; border-style:solid; padding:10px; background-color:#eaeaea; border-radius:8px; ">
+    <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/BlogPosting" itemprop="blogPost">
+        <div class="zapp_textblock  " itemprop="text">
+            <h4 style="text-align: center;"><span style="color: #0000ff;"><strong>Apadrinhar um animal e contribuir para uma vida mais feliz</strong></span></h4>
+        </div>
+    </section>
+    <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/BlogPosting" itemprop="blogPost">
+        <div class="zapp_textblock  " itemprop="text">
+            <p style="text-align: center;"><strong>O apadrinhamento de um animal é uma forma de contribuir para o seu bem-estar. Pode ser feito sob várias formas: em apoio financeiro, em alimentação, em medicamentos ou apoio a cuidados de saúde. Pode ainda contribuir de forma presencial, indo ao abrigo para o passear, escovar, dar banho ou&nbsp;</strong><strong>simplesmente conversar com ele e fazer-lhe companhia.</strong></p>
+            <p style="text-align: center;"><strong>Para&nbsp;fazer parte deste grupo de madrinhas/ padrinhos, basta preencher o formulário abaixo.</strong></p>
+            <p style="text-align: center;"><strong>Para qualquer questão, pode contactar a AlberCool através dos nossos contactos, mail ou telefones.</strong></p>
+            <h2 style="text-align: center;"><strong>Tipos de Ajuda</strong></h2>
+            <p style="text-align: center;"><strong>1- Apoio Monetário; 2- Alimentação; 3- Medicação/Cuidados Medicos; 4- Outros</strong></p>
+
+
+        </div>
+    </section>
+</div>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Morada" class="control-label"></label>
+                <input asp-for="Morada" class="form-control" />
+                <span asp-validation-for="Morada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telefone" class="control-label"></label>
+                <input asp-for="Telefone" class="form-control" />
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TipoApadrinhamentoId" class="control-label"></label>
+                <select asp-for="TipoApadrinhamentoId" class="form-control" asp-items="ViewBag.TipoApadrinhamentoId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="NomeCao" class="control-label"></label>
+                <input asp-for="NomeCao" class="form-control" />
+                <span asp-validation-for="NomeCao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

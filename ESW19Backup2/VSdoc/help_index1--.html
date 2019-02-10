@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Index</title>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<style>
+		html,body {
+			margin: 0; padding: 0px;
+			height:100%; 
+			min-height:100%;
+			background-color: rgb(233,232,220);
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			font-style: normal;
+			font-weight: normal;
+			color: black;
+		}
+
+		body {font-size:75%;position:relative; margin-top:-1px; border-style: solid solid solid solid;	border-color: rgb(172,168,153);	border-width: 0px 0px 1px 0px;}
+		a { text-decoration:none; color:#06c }
+		form {padding:5px; margin:0px;}
+	</style>
+</head>
+<body style="direction: ltr;">
+	<form>
+	Look for:<br /><input style="width:100%" onKeyDown="check_input(this.value,get_match)" onKeyUp="check_input(this.value,get_match)"/>
+	</form>
+
+	<script>
+		var words = new Array(
+"About Method","AccessDenied Method","AccountController Class","AccountController Constructor","ActivePageKey Property","Add Method","AddActivePage Method","Add_Next Method","ApplicationDbContext Class","ApplicationDbContext Constructor","ApplicationUser Class","AuthMessageSenderOptions Class","AuthMessageSenderOptions Constructor","AuthenticatorUri Property","BuildWebHost Method","ChangePassword  Method","ChangePassword (ChangePasswordViewModel) Method","ChangePassword Property","ChangePasswordNavClass Method","ChangePasswordViewModel Class","Code Property {ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel}","Code Property {ESW19Backup2.Models.ManageViewModels.EnableAuthenticatorViewModel}","Configuration Property","Configure Method","ConfigureServices Method","ConfirmEmail Method","ConfirmPassword Property {ESW19Backup2.Models.AccountViewModels.RegisterViewModel}","ConfirmPassword Property {ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel}","ConfirmPassword Property {ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel}","ConfirmPassword Property {ESW19Backup2.Models.ManageViewModels.SetPasswordViewModel}","Contact Method","Create  Method","Create (Funcionarios) Method","CurrentLogins Property","DataDeNascimento Property","Delete Method","DeleteConfirmed Method","Details Method","Disable2fa Method","Disable2faWarning Method","Down Method","ESW19Backup2 Namespace","ESW19Backup2 Reference","ESW19Backup2.Controllers Namespace","ESW19Backup2.Data Namespace","ESW19Backup2.Migrations Namespace","ESW19Backup2.Models Namespace","ESW19Backup2.Models.AccountViewModels Namespace","ESW19Backup2.Models.ManageViewModels Namespace","ESW19Backup2.Services Namespace","ESW19Backup2.Views.Manage Namespace","Edit (Int32, Funcionarios) Method","Edit (Nullable&lt;Int32&gt;) Method","Email Property {ESW19Backup2.Models.AccountViewModels.ExternalLoginViewModel}","Email Property {ESW19Backup2.Models.AccountViewModels.ForgotPasswordViewModel}","Email Property {ESW19Backup2.Models.AccountViewModels.LoginViewModel}","Email Property {ESW19Backup2.Models.AccountViewModels.RegisterViewModel}","Email Property {ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel}","Email Property {ESW19Backup2.Models.Funcionarios}","Email Property {ESW19Backup2.Models.ManageViewModels.IndexViewModel}","EmailConfirmationLink Method","EmailSender Class","EmailSender Constructor","EmailSenderExtensions Class","EnableAuthenticator  Method","EnableAuthenticator (EnableAuthenticatorViewModel) Method","EnableAuthenticatorViewModel Class","Error Method","ErrorMessage Property","ErrorViewModel Class","Execute Method","ExternalLogin Method","ExternalLoginCallback Method","ExternalLoginConfirmation Method","ExternalLoginViewModel Class","ExternalLogins Method","ExternalLogins Property","ExternalLoginsNavClass Method","ExternalLoginsViewModel Class","FileName Property","ForgotPassword  Method","ForgotPassword (ForgotPasswordViewModel) Method","ForgotPasswordConfirmation Method","ForgotPasswordViewModel Class","Formacao Enumeration","FormacaoFuncionario Property","Funcao Enumeration","FuncaoFuncionario Property","FuncionarioController Class","FuncionarioController Constructor","Funcionarios Class","Funcionarios Property","GenerateRecoveryCodes Method","GenerateRecoveryCodesWarning Method","HasAuthenticator Property","HomeController Class","ID Property","IEmailSender Interface","Image Class","Image Property","ImageController Class","ImageController Constructor","ImageData Property","ImageID Property","ImageSize Property","Index  Method {ESW19Backup2.Controllers.ManageController}","Index (IndexViewModel) Method {ESW19Backup2.Controllers.ManageController}","Index Method {ESW19Backup2.Controllers.FuncionarioController}","Index Method {ESW19Backup2.Controllers.HomeController}","Index Method {ESW19Backup2.Controllers.ImageController}","Index Property","IndexNavClass Method","IndexViewModel Class","Is2faEnabled Property","IsEmailConfirmed Property","LayoutBackOffice Method","Layout_Func Method","LinkLogin Method","LinkLoginCallback Method","Lockout Method","Login (LoginViewModel, String) Method","Login (String) Method","LoginProvider Property","LoginViewModel Class","LoginWith2fa (Boolean, String) Method","LoginWith2fa (LoginWith2faViewModel, Boolean, String) Method","LoginWith2faViewModel Class","LoginWithRecoveryCode (LoginWithRecoveryCodeViewModel, String) Method","LoginWithRecoveryCode (String) Method","LoginWithRecoveryCodeViewModel Class","Logout Method","Main Method","ManageController Class","ManageController Constructor","ManageNavPages Class","Microsoft.AspNetCore.Mvc Namespace","MoradaFiscal Property","Nacionalidade Property","NewPassword Property {ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel}","NewPassword Property {ESW19Backup2.Models.ManageViewModels.SetPasswordViewModel}","Nome Property","OldPassword Property","OnModelCreating Method","Options Property","OtherLogins Property","PageNavClass Method","Password Property {ESW19Backup2.Models.AccountViewModels.LoginViewModel}","Password Property {ESW19Backup2.Models.AccountViewModels.RegisterViewModel}","Password Property {ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel}","PhoneNumber Property","Program Class","ProviderKey Property","RecoveryCode Property","RecoveryCodes Property","RecoveryCodesLeft Property","Register (RegisterViewModel, String) Method","Register (String) Method","RegisterViewModel Class","RememberMachine Property","RememberMe Property {ESW19Backup2.Models.AccountViewModels.LoginViewModel}","RememberMe Property {ESW19Backup2.Models.AccountViewModels.LoginWith2faViewModel}","RemoveLogin Method","RemoveLoginViewModel Class","RequestId Property","ResetAuthenticator Method","ResetAuthenticatorWarning Method","ResetPassword (ResetPasswordViewModel) Method","ResetPassword (String) Method","ResetPasswordCallbackLink Method","ResetPasswordConfirmation Method","ResetPasswordViewModel Class","SendEmailAsync Method {ESW19Backup2.Services.EmailSender}","SendEmailAsync Method {ESW19Backup2.Services.IEmailSender}","SendEmailConfirmationAsync Method","SendGridKey Property","SendGridUser Property","SendVerificationEmail Method","SetPassword  Method","SetPassword (SetPasswordViewModel) Method","SetPasswordViewModel Class","Sexo Property","SharedKey Property","ShowRecoveryCodes Method","ShowRecoveryCodesViewModel Class","ShowRemoveButton Property","ShowRequestId Property","Sobrenome Property","Startup Class","Startup Constructor","StatusMessage Property {ESW19Backup2.Controllers.ManageController}","StatusMessage Property {ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel}","StatusMessage Property {ESW19Backup2.Models.ManageViewModels.ExternalLoginsViewModel}","StatusMessage Property {ESW19Backup2.Models.ManageViewModels.IndexViewModel}","StatusMessage Property {ESW19Backup2.Models.ManageViewModels.SetPasswordViewModel}","Telemovel Property","TwoFactorAuthentication Method","TwoFactorAuthentication Property","TwoFactorAuthenticationNavClass Method","TwoFactorAuthenticationViewModel Class","TwoFactorCode Property","Up Method","UrlHelperExtensions Class","Username Property","Waring_Email Method","mig Class"
+		);
+		
+		
+		var oldHighlight = 0;
+		var oldKey = "";
+		
+		function get_match(text) {
+		    var ltext = text.toLowerCase();
+		    for(i in words) {
+		        if(words[i].toLowerCase().indexOf(ltext) == "0") {
+		            return words[i];
+		        }
+		    }
+		    return "";
+		}
+		
+		function highlight(keyword) {
+		    if(oldHighlight) oldHighlight.className = "";
+		    var el = parent.frames['zindex'].document.getElementById("w_"+keyword);
+		    el.className="highlighted";
+		    oldHighlight = el;
+		}
+		
+		function check_input(text, matchfun) {
+		    if(text!=oldKey) {
+		        var keyword = matchfun(text);
+		        if(keyword) {       
+		            highlight(keyword);
+		            parent.frames['zindex'].document.getElementById('w_'+keyword).scrollIntoView();
+		        }
+		        oldKey = text;
+		    }
+		}
+	</script>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Titulo"] = "Estatisticas";
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	theme: "light2", // "light1", "light2", "dark1", "dark2"
+	animationEnabled: true,
+	title: {
+		text: "Cães entrados por meses"
+	},
+	axisX: {
+		interval: 1
+	},
+	axisY: {
+		valueFormatString: "0"
+	},
+	data: [{
+		type: "waterfall",
+		yValueFormatString: "0",
+		indexLabelOrientation: "vertical",
+		indexLabelFontColor: "black",
+		risingColor: "#73C2FB",
+		fallingColor: "#FFA571",
+		dataPoints: @Html.Raw(ViewBag.DataPoints)
+	}]
+});
+chart.render();
+
+}
+    </script>
+</head>
+<body>
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

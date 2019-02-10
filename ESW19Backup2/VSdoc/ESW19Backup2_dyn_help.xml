@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance" xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">	
+   <LINKGROUP ID="ESW19Backup2" Title="ESW19Backup2 Reference Help" Priority="2100">
+      <GLYPH Expanded="vs:/ctxhelp_show.gif" Collapsed="vs:/ctxhelp_hide.gif"/>
+   </LINKGROUP>
+
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.HomeController.About" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000026.html" LinkGroup="ESW19Backup2">About Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.AccessDenied" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000018.html" LinkGroup="ESW19Backup2">AccessDenied Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000001.html" LinkGroup="ESW19Backup2">AccountController Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.AccountController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000002.html" LinkGroup="ESW19Backup2">AccountController Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.ActivePageKey" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000C1.html" LinkGroup="ESW19Backup2">ActivePageKey Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ImageController.Add" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000002E.html" LinkGroup="ESW19Backup2">Add Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.AddActivePage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000CB.html" LinkGroup="ESW19Backup2">AddActivePage Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ImageController.Add_Next" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000002F.html" LinkGroup="ESW19Backup2">Add_Next Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Data.ApplicationDbContext" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000049.html" LinkGroup="ESW19Backup2">ApplicationDbContext Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Data.ApplicationDbContext.ApplicationDbContext" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000004A.html" LinkGroup="ESW19Backup2">ApplicationDbContext Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ApplicationUser" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000094.html" LinkGroup="ESW19Backup2">ApplicationUser Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.AuthMessageSenderOptions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000B4.html" LinkGroup="ESW19Backup2">AuthMessageSenderOptions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.AuthMessageSenderOptions.AuthMessageSenderOptions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000B7.html" LinkGroup="ESW19Backup2">AuthMessageSenderOptions Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.EnableAuthenticatorViewModel.AuthenticatorUri" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000007A.html" LinkGroup="ESW19Backup2">AuthenticatorUri Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Program.BuildWebHost" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000CF.html" LinkGroup="ESW19Backup2">BuildWebHost Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.ChangePassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000036_overloads--.html" LinkGroup="ESW19Backup2">ChangePassword Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.ChangePassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000037_overloads--.html" LinkGroup="ESW19Backup2">ChangePassword Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.ChangePassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000C3.html" LinkGroup="ESW19Backup2">ChangePassword Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.ChangePasswordNavClass" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000C7.html" LinkGroup="ESW19Backup2">ChangePasswordNavClass Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000072.html" LinkGroup="ESW19Backup2">ChangePasswordViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel.Code" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000070.html" LinkGroup="ESW19Backup2">Code Property {ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.EnableAuthenticatorViewModel.Code" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000078.html" LinkGroup="ESW19Backup2">Code Property {ESW19Backup2.Models.ManageViewModels.EnableAuthenticatorViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Startup.Configuration" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000D2.html" LinkGroup="ESW19Backup2">Configuration Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Startup.Configure" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000D4.html" LinkGroup="ESW19Backup2">Configure Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Startup.ConfigureServices" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000D3.html" LinkGroup="ESW19Backup2">ConfigureServices Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ConfirmEmail" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000011.html" LinkGroup="ESW19Backup2">ConfirmEmail Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.RegisterViewModel.ConfirmPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000006B.html" LinkGroup="ESW19Backup2">ConfirmPassword Property {ESW19Backup2.Models.AccountViewModels.RegisterViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel.ConfirmPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000006F.html" LinkGroup="ESW19Backup2">ConfirmPassword Property {ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel.ConfirmPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000075.html" LinkGroup="ESW19Backup2">ConfirmPassword Property {ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.SetPasswordViewModel.ConfirmPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000008B.html" LinkGroup="ESW19Backup2">ConfirmPassword Property {ESW19Backup2.Models.ManageViewModels.SetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.HomeController.Contact" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000027.html" LinkGroup="ESW19Backup2">Contact Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController.Create" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000001D_overloads--.html" LinkGroup="ESW19Backup2">Create Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController.Create" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000001E_overloads--.html" LinkGroup="ESW19Backup2">Create Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ExternalLoginsViewModel.CurrentLogins" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000007C.html" LinkGroup="ESW19Backup2">CurrentLogins Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.DataDeNascimento" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000009C.html" LinkGroup="ESW19Backup2">DataDeNascimento Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController.Delete" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000021.html" LinkGroup="ESW19Backup2">Delete Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController.DeleteConfirmed" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000023.html" LinkGroup="ESW19Backup2">DeleteConfirmed Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController.Details" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000001C.html" LinkGroup="ESW19Backup2">Details Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.Disable2fa" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000040.html" LinkGroup="ESW19Backup2">Disable2fa Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.Disable2faWarning" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000003F.html" LinkGroup="ESW19Backup2">Disable2faWarning Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Migrations.mig.Down" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000058.html" LinkGroup="ESW19Backup2">Down Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000CC.html" LinkGroup="ESW19Backup2">ESW19Backup2 Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2 Reference" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000D5.html" LinkGroup="ESW19Backup2">ESW19Backup2 Reference</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000000.html" LinkGroup="ESW19Backup2">ESW19Backup2.Controllers Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Data" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000048.html" LinkGroup="ESW19Backup2">ESW19Backup2.Data Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Migrations" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000055.html" LinkGroup="ESW19Backup2">ESW19Backup2.Migrations Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000093.html" LinkGroup="ESW19Backup2">ESW19Backup2.Models Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000059.html" LinkGroup="ESW19Backup2">ESW19Backup2.Models.AccountViewModels Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000071.html" LinkGroup="ESW19Backup2">ESW19Backup2.Models.ManageViewModels Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000004E.html" LinkGroup="ESW19Backup2">ESW19Backup2.Services Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000BF.html" LinkGroup="ESW19Backup2">ESW19Backup2.Views.Manage Namespace</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController.Edit" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000020_overloads--.html" LinkGroup="ESW19Backup2">Edit Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController.Edit" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000001F_overloads--.html" LinkGroup="ESW19Backup2">Edit Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.ExternalLoginViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000005B.html" LinkGroup="ESW19Backup2">Email Property {ESW19Backup2.Models.AccountViewModels.ExternalLoginViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.ForgotPasswordViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000005D.html" LinkGroup="ESW19Backup2">Email Property {ESW19Backup2.Models.AccountViewModels.ForgotPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.LoginViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000005F.html" LinkGroup="ESW19Backup2">Email Property {ESW19Backup2.Models.AccountViewModels.LoginViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.RegisterViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000069.html" LinkGroup="ESW19Backup2">Email Property {ESW19Backup2.Models.AccountViewModels.RegisterViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000006D.html" LinkGroup="ESW19Backup2">Email Property {ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000009E.html" LinkGroup="ESW19Backup2">Email Property {ESW19Backup2.Models.Funcionarios}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.IndexViewModel.Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000083.html" LinkGroup="ESW19Backup2">Email Property {ESW19Backup2.Models.ManageViewModels.IndexViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Microsoft.AspNetCore.Mvc.UrlHelperExtensions.EmailConfirmationLink" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000053.html" LinkGroup="ESW19Backup2">EmailConfirmationLink Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.EmailSender" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000B8.html" LinkGroup="ESW19Backup2">EmailSender Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.EmailSender.EmailSender" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000B9.html" LinkGroup="ESW19Backup2">EmailSender Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.EmailSenderExtensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000004F.html" LinkGroup="ESW19Backup2">EmailSenderExtensions Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.EnableAuthenticator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000041_overloads--.html" LinkGroup="ESW19Backup2">EnableAuthenticator Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.EnableAuthenticator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000042_overloads--.html" LinkGroup="ESW19Backup2">EnableAuthenticator Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.EnableAuthenticatorViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000077.html" LinkGroup="ESW19Backup2">EnableAuthenticatorViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.HomeController.Error" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000002A.html" LinkGroup="ESW19Backup2">Error Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ErrorMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000003.html" LinkGroup="ESW19Backup2">ErrorMessage Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ErrorViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000095.html" LinkGroup="ESW19Backup2">ErrorViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.EmailSender.Execute" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000BC.html" LinkGroup="ESW19Backup2">Execute Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ExternalLogin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000000E.html" LinkGroup="ESW19Backup2">ExternalLogin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ExternalLoginCallback" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000000F.html" LinkGroup="ESW19Backup2">ExternalLoginCallback Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ExternalLoginConfirmation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000010.html" LinkGroup="ESW19Backup2">ExternalLoginConfirmation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.ExternalLoginViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000005A.html" LinkGroup="ESW19Backup2">ExternalLoginViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.ExternalLogins" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000003A.html" LinkGroup="ESW19Backup2">ExternalLogins Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.ExternalLogins" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000C4.html" LinkGroup="ESW19Backup2">ExternalLogins Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.ExternalLoginsNavClass" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000C8.html" LinkGroup="ESW19Backup2">ExternalLoginsNavClass Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ExternalLoginsViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000007B.html" LinkGroup="ESW19Backup2">ExternalLoginsViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Image.FileName" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000B2.html" LinkGroup="ESW19Backup2">FileName Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ForgotPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000012_overloads--.html" LinkGroup="ESW19Backup2">ForgotPassword Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ForgotPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000013_overloads--.html" LinkGroup="ESW19Backup2">ForgotPassword Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ForgotPasswordConfirmation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000014.html" LinkGroup="ESW19Backup2">ForgotPasswordConfirmation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.ForgotPasswordViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000005C.html" LinkGroup="ESW19Backup2">ForgotPasswordViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Formacao" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000A4.html" LinkGroup="ESW19Backup2">Formacao Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.FormacaoFuncionario" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000A2.html" LinkGroup="ESW19Backup2">FormacaoFuncionario Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcao" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000AA.html" LinkGroup="ESW19Backup2">Funcao Enumeration</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.FuncaoFuncionario" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000A3.html" LinkGroup="ESW19Backup2">FuncaoFuncionario Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000019.html" LinkGroup="ESW19Backup2">FuncionarioController Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController.FuncionarioController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000001A.html" LinkGroup="ESW19Backup2">FuncionarioController Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000098.html" LinkGroup="ESW19Backup2">Funcionarios Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Data.ApplicationDbContext.Funcionarios" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000004D.html" LinkGroup="ESW19Backup2">Funcionarios Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.GenerateRecoveryCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000047.html" LinkGroup="ESW19Backup2">GenerateRecoveryCodes Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.GenerateRecoveryCodesWarning" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000046.html" LinkGroup="ESW19Backup2">GenerateRecoveryCodesWarning Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.TwoFactorAuthenticationViewModel.HasAuthenticator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000090.html" LinkGroup="ESW19Backup2">HasAuthenticator Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.HomeController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000024.html" LinkGroup="ESW19Backup2">HomeController Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.ID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000099.html" LinkGroup="ESW19Backup2">ID Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.IEmailSender" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000BD.html" LinkGroup="ESW19Backup2">IEmailSender Interface</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Image" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000AF.html" LinkGroup="ESW19Backup2">Image Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Data.ApplicationDbContext.Image" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000004C.html" LinkGroup="ESW19Backup2">Image Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ImageController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000002B.html" LinkGroup="ESW19Backup2">ImageController Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ImageController.ImageController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000002C.html" LinkGroup="ESW19Backup2">ImageController Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Image.ImageData" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000B3.html" LinkGroup="ESW19Backup2">ImageData Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Image.ImageID" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000B0.html" LinkGroup="ESW19Backup2">ImageID Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Image.ImageSize" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000B1.html" LinkGroup="ESW19Backup2">ImageSize Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000033_overloads--.html" LinkGroup="ESW19Backup2">Index Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000034_overloads--.html" LinkGroup="ESW19Backup2">Index Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000001B.html" LinkGroup="ESW19Backup2">Index Method {ESW19Backup2.Controllers.FuncionarioController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.HomeController.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000025.html" LinkGroup="ESW19Backup2">Index Method {ESW19Backup2.Controllers.HomeController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ImageController.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000002D.html" LinkGroup="ESW19Backup2">Index Method {ESW19Backup2.Controllers.ImageController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.Index" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000C2.html" LinkGroup="ESW19Backup2">Index Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.IndexNavClass" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000C6.html" LinkGroup="ESW19Backup2">IndexNavClass Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.IndexViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000080.html" LinkGroup="ESW19Backup2">IndexViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.TwoFactorAuthenticationViewModel.Is2faEnabled" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000092.html" LinkGroup="ESW19Backup2">Is2faEnabled Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.IndexViewModel.IsEmailConfirmed" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000082.html" LinkGroup="ESW19Backup2">IsEmailConfirmed Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.HomeController.LayoutBackOffice" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000028.html" LinkGroup="ESW19Backup2">LayoutBackOffice Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.FuncionarioController.Layout_Func" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000022.html" LinkGroup="ESW19Backup2">Layout_Func Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.LinkLogin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000003B.html" LinkGroup="ESW19Backup2">LinkLogin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.LinkLoginCallback" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000003C.html" LinkGroup="ESW19Backup2">LinkLoginCallback Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.Lockout" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000000A.html" LinkGroup="ESW19Backup2">Lockout Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.Login" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000005_overloads--.html" LinkGroup="ESW19Backup2">Login Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.Login" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000004_overloads--.html" LinkGroup="ESW19Backup2">Login Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.RemoveLoginViewModel.LoginProvider" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000087.html" LinkGroup="ESW19Backup2">LoginProvider Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.LoginViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000005E.html" LinkGroup="ESW19Backup2">LoginViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.LoginWith2fa" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000006_overloads--.html" LinkGroup="ESW19Backup2">LoginWith2fa Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.LoginWith2fa" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000007_overloads--.html" LinkGroup="ESW19Backup2">LoginWith2fa Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.LoginWith2faViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000062.html" LinkGroup="ESW19Backup2">LoginWith2faViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.LoginWithRecoveryCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000009_overloads--.html" LinkGroup="ESW19Backup2">LoginWithRecoveryCode Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.LoginWithRecoveryCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000008_overloads--.html" LinkGroup="ESW19Backup2">LoginWithRecoveryCode Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.LoginWithRecoveryCodeViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000066.html" LinkGroup="ESW19Backup2">LoginWithRecoveryCodeViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.Logout" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000000D.html" LinkGroup="ESW19Backup2">Logout Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Program.Main" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000CE.html" LinkGroup="ESW19Backup2">Main Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000030.html" LinkGroup="ESW19Backup2">ManageController Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.ManageController" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000031.html" LinkGroup="ESW19Backup2">ManageController Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000C0.html" LinkGroup="ESW19Backup2">ManageNavPages Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Microsoft.AspNetCore.Mvc" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000051.html" LinkGroup="ESW19Backup2">Microsoft.AspNetCore.Mvc Namespace</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.MoradaFiscal" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000A1.html" LinkGroup="ESW19Backup2">MoradaFiscal Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.Nacionalidade" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000A0.html" LinkGroup="ESW19Backup2">Nacionalidade Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel.NewPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000074.html" LinkGroup="ESW19Backup2">NewPassword Property {ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.SetPasswordViewModel.NewPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000008A.html" LinkGroup="ESW19Backup2">NewPassword Property {ESW19Backup2.Models.ManageViewModels.SetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.Nome" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000009A.html" LinkGroup="ESW19Backup2">Nome Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel.OldPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000073.html" LinkGroup="ESW19Backup2">OldPassword Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Data.ApplicationDbContext.OnModelCreating" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000004B.html" LinkGroup="ESW19Backup2">OnModelCreating Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.EmailSender.Options" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000BA.html" LinkGroup="ESW19Backup2">Options Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ExternalLoginsViewModel.OtherLogins" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000007D.html" LinkGroup="ESW19Backup2">OtherLogins Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.PageNavClass" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000CA.html" LinkGroup="ESW19Backup2">PageNavClass Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.LoginViewModel.Password" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000060.html" LinkGroup="ESW19Backup2">Password Property {ESW19Backup2.Models.AccountViewModels.LoginViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.RegisterViewModel.Password" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000006A.html" LinkGroup="ESW19Backup2">Password Property {ESW19Backup2.Models.AccountViewModels.RegisterViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel.Password" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000006E.html" LinkGroup="ESW19Backup2">Password Property {ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.IndexViewModel.PhoneNumber" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000084.html" LinkGroup="ESW19Backup2">PhoneNumber Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Program" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000CD.html" LinkGroup="ESW19Backup2">Program Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.RemoveLoginViewModel.ProviderKey" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000088.html" LinkGroup="ESW19Backup2">ProviderKey Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.LoginWithRecoveryCodeViewModel.RecoveryCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000067.html" LinkGroup="ESW19Backup2">RecoveryCode Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ShowRecoveryCodesViewModel.RecoveryCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000008E.html" LinkGroup="ESW19Backup2">RecoveryCodes Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.TwoFactorAuthenticationViewModel.RecoveryCodesLeft" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000091.html" LinkGroup="ESW19Backup2">RecoveryCodesLeft Property</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.Register" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000000C_overloads--.html" LinkGroup="ESW19Backup2">Register Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.Register" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000000B_overloads--.html" LinkGroup="ESW19Backup2">Register Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.RegisterViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000068.html" LinkGroup="ESW19Backup2">RegisterViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.LoginWith2faViewModel.RememberMachine" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000064.html" LinkGroup="ESW19Backup2">RememberMachine Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.LoginViewModel.RememberMe" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000061.html" LinkGroup="ESW19Backup2">RememberMe Property {ESW19Backup2.Models.AccountViewModels.LoginViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.LoginWith2faViewModel.RememberMe" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000065.html" LinkGroup="ESW19Backup2">RememberMe Property {ESW19Backup2.Models.AccountViewModels.LoginWith2faViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.RemoveLogin" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000003D.html" LinkGroup="ESW19Backup2">RemoveLogin Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.RemoveLoginViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000086.html" LinkGroup="ESW19Backup2">RemoveLoginViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ErrorViewModel.RequestId" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000096.html" LinkGroup="ESW19Backup2">RequestId Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.ResetAuthenticator" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000045.html" LinkGroup="ESW19Backup2">ResetAuthenticator Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.ResetAuthenticatorWarning" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000044.html" LinkGroup="ESW19Backup2">ResetAuthenticatorWarning Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ResetPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000016_overloads--.html" LinkGroup="ESW19Backup2">ResetPassword Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ResetPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000015_overloads--.html" LinkGroup="ESW19Backup2">ResetPassword Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Microsoft.AspNetCore.Mvc.UrlHelperExtensions.ResetPasswordCallbackLink" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000054.html" LinkGroup="ESW19Backup2">ResetPasswordCallbackLink Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.AccountController.ResetPasswordConfirmation" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000017.html" LinkGroup="ESW19Backup2">ResetPasswordConfirmation Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.ResetPasswordViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000006C.html" LinkGroup="ESW19Backup2">ResetPasswordViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.EmailSender.SendEmailAsync" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000BB.html" LinkGroup="ESW19Backup2">SendEmailAsync Method {ESW19Backup2.Services.EmailSender}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.IEmailSender.SendEmailAsync" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000BE.html" LinkGroup="ESW19Backup2">SendEmailAsync Method {ESW19Backup2.Services.IEmailSender}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.EmailSenderExtensions.SendEmailConfirmationAsync" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000050.html" LinkGroup="ESW19Backup2">SendEmailConfirmationAsync Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.AuthMessageSenderOptions.SendGridKey" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000B6.html" LinkGroup="ESW19Backup2">SendGridKey Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Services.AuthMessageSenderOptions.SendGridUser" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000B5.html" LinkGroup="ESW19Backup2">SendGridUser Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.SendVerificationEmail" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000035.html" LinkGroup="ESW19Backup2">SendVerificationEmail Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.SetPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000038_overloads--.html" LinkGroup="ESW19Backup2">SetPassword Method</LItem>
+      </Links>
+   </Context>
+   
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.SetPassword" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000039_overloads--.html" LinkGroup="ESW19Backup2">SetPassword Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.SetPasswordViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000089.html" LinkGroup="ESW19Backup2">SetPasswordViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.Sexo" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000009D.html" LinkGroup="ESW19Backup2">Sexo Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.EnableAuthenticatorViewModel.SharedKey" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000079.html" LinkGroup="ESW19Backup2">SharedKey Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.ShowRecoveryCodes" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000043.html" LinkGroup="ESW19Backup2">ShowRecoveryCodes Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ShowRecoveryCodesViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000008D.html" LinkGroup="ESW19Backup2">ShowRecoveryCodesViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ExternalLoginsViewModel.ShowRemoveButton" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000007E.html" LinkGroup="ESW19Backup2">ShowRemoveButton Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ErrorViewModel.ShowRequestId" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000097.html" LinkGroup="ESW19Backup2">ShowRequestId Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.Sobrenome" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000009B.html" LinkGroup="ESW19Backup2">Sobrenome Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Startup" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000D0.html" LinkGroup="ESW19Backup2">Startup Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Startup.Startup" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000D1.html" LinkGroup="ESW19Backup2">Startup Constructor</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.StatusMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000032.html" LinkGroup="ESW19Backup2">StatusMessage Property {ESW19Backup2.Controllers.ManageController}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel.StatusMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000076.html" LinkGroup="ESW19Backup2">StatusMessage Property {ESW19Backup2.Models.ManageViewModels.ChangePasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.ExternalLoginsViewModel.StatusMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000007F.html" LinkGroup="ESW19Backup2">StatusMessage Property {ESW19Backup2.Models.ManageViewModels.ExternalLoginsViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.IndexViewModel.StatusMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000085.html" LinkGroup="ESW19Backup2">StatusMessage Property {ESW19Backup2.Models.ManageViewModels.IndexViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.SetPasswordViewModel.StatusMessage" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000008C.html" LinkGroup="ESW19Backup2">StatusMessage Property {ESW19Backup2.Models.ManageViewModels.SetPasswordViewModel}</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.Funcionarios.Telemovel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000009F.html" LinkGroup="ESW19Backup2">Telemovel Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.ManageController.TwoFactorAuthentication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000003E.html" LinkGroup="ESW19Backup2">TwoFactorAuthentication Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.TwoFactorAuthentication" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000C5.html" LinkGroup="ESW19Backup2">TwoFactorAuthentication Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Views.Manage.ManageNavPages.TwoFactorAuthenticationNavClass" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_00000000000000C9.html" LinkGroup="ESW19Backup2">TwoFactorAuthenticationNavClass Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.TwoFactorAuthenticationViewModel" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_000000000000008F.html" LinkGroup="ESW19Backup2">TwoFactorAuthenticationViewModel Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.AccountViewModels.LoginWith2faViewModel.TwoFactorCode" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000063.html" LinkGroup="ESW19Backup2">TwoFactorCode Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Migrations.mig.Up" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000057.html" LinkGroup="ESW19Backup2">Up Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="Microsoft.AspNetCore.Mvc.UrlHelperExtensions" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000052.html" LinkGroup="ESW19Backup2">UrlHelperExtensions Class</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Models.ManageViewModels.IndexViewModel.Username" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000081.html" LinkGroup="ESW19Backup2">Username Property</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Controllers.HomeController.Waring_Email" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000029.html" LinkGroup="ESW19Backup2">Waring_Email Method</LItem>
+      </Links>
+   </Context>
+   
+
+   <Context>
+      <Keywords>
+         <KItem Name="ESW19Backup2.Migrations.mig" />
+      </Keywords>
+      <Links>
+         <LItem URL="ms-its:ESW19Backup2.chm::/topic_0000000000000056.html" LinkGroup="ESW19Backup2">mig Class</LItem>
+      </Links>
+   </Context>
+   
+
+</DynamicHelp>
+

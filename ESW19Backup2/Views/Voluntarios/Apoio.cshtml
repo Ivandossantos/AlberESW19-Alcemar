@@ -1,0 +1,190 @@
+﻿
+@{
+    ViewBag.Title = "Apoios";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Apoio</title>
+
+<style>
+    bodu{
+    background-repeat: no-repeat;
+    background-image: url(https://i1.wp.com/www.lpda.pt/wp-content/uploads/sites/16/2016/03/12.jpg?fit=960%2C720&ssl=1);
+    background-attachment: scroll;
+    background-position: center center;
+    }
+
+    .html_header_sticky_disabled .container_wrap:first-child, .zapp-section.zapp-full-stretch, .html_header_transparency .zapp-section.zapp-builder-el-0 {
+        border-top: none;
+    }
+
+    .container_wrap {
+        border-top-width: 0px;
+    }
+
+    .main_color, .main_color .site-background, .main_color .first-quote, .main_color .related_image_wrap, .main_color .gravatar img .main_color .hr_content, .main_color .news-thumb, .main_color .post-format-icon, .main_color .ajax_controlls a, .main_color .tweet-text.avatar_no, .main_color .toggler, .main_color .toggler.activeTitle:hover, .main_color #js_sort_items, .main_color.inner-entry, .main_color .grid-entry-title, .main_color .related-format-icon, .grid-entry .main_color .zapp-arrow, .main_color .zapp-gallery-big, .main_color .zapp-gallery-big, .main_color .zapp-gallery img, .main_color .grid-content, .main_color .av-share-box ul, #top .main_color .av-related-style-full .related-format-icon, .main_color .related_posts.av-related-style-full a:hover, .main_color.zapp-fullwidth-portfolio .pagination .current, .main_color.zapp-fullwidth-portfolio .pagination a, .main_color .av-hotspot-fallback-tooltip-inner, .main_color .av-hotspot-fallback-tooltip-count {
+        background-color: #ffffff;
+        color: #666666;
+    }
+
+        .main_color, .main_color div, .main_color header, .main_color main, .main_color aside, .main_color footer, .main_color article, .main_color nav, .main_color section, .main_color span, .main_color applet, .main_color object, .main_color iframe, .main_color h1, .main_color h2, .main_color h3, .main_color h4, .main_color h5, .main_color h6, .main_color p, .main_color blockquote, .main_color pre, .main_color a, .main_color abbr, .main_color acronym, .main_color address, .main_color big, .main_color cite, .main_color code, .main_color del, .main_color dfn, .main_color em, .main_color img, .main_color ins, .main_color kbd, .main_color q, .main_color s, .main_color samp, .main_color small, .main_color strike, .main_color strong, .main_color sub, .main_color sup, .main_color tt, .main_color var, .main_color b, .main_color u, .main_color i, .main_color center, .main_color dl, .main_color dt, .main_color dd, .main_color ol, .main_color ul, .main_color li, .main_color fieldset, .main_color form, .main_color label, .main_color legend, .main_color table, .main_color caption, .main_color tbody, .main_color tfoot, .main_color thead, .main_color tr, .main_color th, .main_color td, .main_color article, .main_color aside, .main_color canvas, .main_color details, .main_color embed, .main_color figure, .main_color fieldset, .main_color figcaption, .main_color footer, .main_color header, .main_color hgroup, .main_color menu, .main_color nav, .main_color output, .main_color ruby, .main_color section, .main_color summary, .main_color time, .main_color mark, .main_color audio, .main_color video, #top .main_color .pullquote_boxed, .responsive #top .main_color .zapp-testimonial, .responsive #top.zapp-blank #main .main_color.container_wrap:first-child, #top .main_color.fullsize .template-blog .post_delimiter, .main_color .related_posts.av-related-style-full a {
+            border-color: #e1e1e1;
+        }
+
+    .zapp-full-stretch {
+        background-size: cover !important;
+    }
+
+    .zapp-section {
+        clear: both;
+        width: 100%;
+        float: left;
+        min-height: 100px;
+        position: static;
+    }
+
+    .container_wrap {
+        clear: both;
+        position: relative;
+        border-top-style: solid;
+        border-top-width: 1px;
+    }
+
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    user agent stylesheet
+    div {
+        display: block;
+    }
+
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+        body.open_sans {
+            font-family: 'open sans','HelveticaNeue','Helvetica Neue','Helvetica-Neue',Helvetica,Arial,sans-serif;
+        }
+
+        body, body .zapp-tooltip {
+            font-size: 14px;
+        }
+
+    body {
+        font: 13px/1.65em "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #444;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+        line-height: 1em;
+    }
+
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    ::selection {
+        background-color: #109bc5;
+        color: #ffffff;
+    }
+
+    .zapp_message_box.zapp-border-solid {
+        border-width: 3px;
+        border-style: solid;
+    }
+
+    .zapp_message_box.zapp-color-blue, .zapp_message_box.zapp-color-blue a {
+        background-color: #F5F6FC;
+        border-color: #9DADBF;
+        text-shadow: 0 1px 0 rgba(255,255,255,0.7);
+        color: #4671A3;
+    }
+
+    .zapp_message_box.zapp-size-large {
+        padding: 25px;
+    }
+
+    .zapp_message_box {
+        text-align: center;
+        position: absolute;
+       
+        clear: both;
+        margin: 30px 0;
+    }
+</style>
+
+</head>
+<body>
+    <div id="av_section_1" class="zapp-section main_color zapp-section-default zapp-no-shadow zapp-full-stretch zapp-bg-style-scroll  zapp-builder-el-0  el_before_av_one_full  zapp-builder-el-first   av-minimum-height av-minimum-height-custom container_wrap fullsize" style="background-repeat:no-repeat;background-image:url(https://pixnio.com/free-images/2018/06/28/2018-06-28-06-47-52-1200x800.jpg);background-attachment:scroll;background-position:center center" data-section-bg-repeat="stretch">
+        <div class="container" style="height:450px">
+            <main role="main" itemscope="itemscope" itemtype="https://schema.org/Blog" class="template-page content  av-content-full alpha units">
+                <div class="post-entry post-entry-type-page post-entry-166833">
+                    <div class="entry-content-wrapper clearfix">
+                        <div class="flex_column av_one_half  flex_column_div av-zero-column-padding first  zapp-builder-el-1  el_before_av_one_half  zapp-builder-el-first  " style="border-radius:0px; ">
+                            <div class="zapp-buttonrow-wrap zapp-buttonrow-center   zapp-builder-el-2  zapp-builder-el-no-sibling ">
+                                <button type="button" class="btn btn-primary" style="margin-top: 10px" data-dismiss="modal" onclick="location.href='@Url.Action("Create", "Voluntarios")'">Voluntariar</button>
+                                <button type="button" class="btn btn-primary" style="margin-top: 10px" data-dismiss="modal" onclick="location.href='@Url.Action("Criar", "Socios1")'">Ser Socio</button>
+                            
+                            </div>
+                        </div><div class="flex_column av_one_half  flex_column_div av-zero-column-padding   zapp-builder-el-3  el_after_av_one_half  zapp-builder-el-last  " style="border-radius:0px; ">
+                            <div id="zapp-messagebox-" class="zapp_message_box  zapp-color-blue zapp-size-large zapp-icon_select-no zapp-border-solid  zapp-builder-el-4  el_before_av_hr  zapp-builder-el-first">
+                                <div class="zapp_message_box_content">
+                                    <p type="button" style="cursor:pointer"  data-dismiss="modal" onclick="location.href='@Url.Action("Create", "Socios")'">Seja Madrinha/ Padrinho de um animal e ajude ao seu bem-estar</p>
+
+                                </div>
+                            </div>
+                            <div style="height:300px" class="hr hr-invisible   zapp-builder-el-5  el_after_av_notification  zapp-builder-el-last "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </main><!-- close content main element -->
+        </div>
+    </div>
+
+</body>
+</html>

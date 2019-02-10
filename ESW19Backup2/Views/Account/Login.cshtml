@@ -1,0 +1,41 @@
+﻿
+@using System.Collections.Generic
+@using System.Linq
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Http.Authentication
+@model LoginViewModel
+@inject SignInManager<ApplicationUser> SignInManager
+@{
+    Layout = "~/Views/Shared/_LayoutAutenticacao.cshtml";
+    ViewData["Titulo"] = "Autenticação";
+}
+<form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+    <div class="form-group">
+        <input type="text" asp-for="Email" placeholder="Username" class="form-control username" id="Username" data-toggle="tooltip" data-placement-md="right" data-placement-xs="top" title="@ViewData["EmailLog"]">
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="password" asp-for="Password" placeholder="Password" class="form-control password" id="Password" data-toggle="tooltip" data-placement-md="right" data-placement-xs="top" title="@ViewData["Password"]">
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <div class="checkbox">
+            <label asp-for="RememberMe">
+                <input asp-for="RememberMe" />
+                @Html.DisplayNameFor(m => m.RememberMe)
+            </label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" id="btnLogin">Login</button>
+    </div>
+</form>
+<div id="outros">
+    <a href="~/Account/Register">Registar</a>
+    &#9679;
+    <a href="@Url.Action("ForgotPassword","Account")">Recuperar Password</a>
+</div>
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,39 @@
+﻿@model ESW19Backup2.Models.Atribuicao
+@{
+    ViewData["Titulo"] = "Atribuição de Horarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+ 
+    <form asp-action="Criar" method="post" enctype="multipart/form-data">
+        <div class="col-md-4 col-lg-4">
+            <div class="col-lg-12">
+                <div class="form-group">
+                    <label asp-for="Horario" class="control-label"></label>:
+                    <select id="Programa" asp-for="HorarioId" class="form-control" asp-items="ViewBag.Horario"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Tarefa" class="control-label"></label>:
+                    <select id="Escola" asp-for="TarefaId" class="form-control" asp-items="ViewBag.Tarefas"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Funcionarios" class="control-label"></label>:
+                    <select id="Curso" asp-for="FuncionarioId" class="form-control" asp-items="ViewBag.Funcionarios"></select>
+                </div>
+                <div class="clearfix botoes">
+                    <button type="submit" class="pull-right" id="btnConfirmar" style="margin-bottom: 20px;">Confirmar</button>
+                    <button type="button" onclick="javascript:history.back(); return false;" class="pull-right" id="btnVoltar">Voltar</button>
+                </div>
+                @*<div class="form-group">
+                    <label asp-for="Horario.Funcionarios" class="control-label"></label>
+                    <input type="number" asp-for="Horario.Funcionarios.FuncionariosID" placeholder="insira o Id do Funcionario" class="form-control" id="CandidaturaId" data-toggle="tooltip" data-placement-md="right" data-placement-xs="top" data-html="true">
+                    <span asp-validation-for="Horario.Funcionarios.FuncionariosID" class="text-danger"></span>
+                </div>*@
+            </div>
+        </div>
+    </form>
+   
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

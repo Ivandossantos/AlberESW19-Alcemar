@@ -1,0 +1,26 @@
+﻿@{
+    String tituloModal = "Ajuda - " + ViewData["Titulo"];
+    String textoModal = "Esta página não tem ajuda disponível.";
+
+    if (ViewData["TextoModalAjuda"] != null)
+    {
+        textoModal = (String)ViewData["TextoModalAjuda"];
+    }
+}
+<div id="ModalAjuda" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">@tituloModal</h4>
+            </div>
+            <div class="modal-body">
+                <p>@Html.Raw(textoModal)</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>

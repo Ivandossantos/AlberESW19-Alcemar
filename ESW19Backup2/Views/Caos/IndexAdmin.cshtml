@@ -1,0 +1,66 @@
+﻿@model IEnumerable<ESW19Backup2.Models.Cao>
+
+@{
+    ViewBag.Title = "Cao";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>IndexAdmin</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Criar Novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Idade)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Raca)
+                </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.DataDeEntrada)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaoId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Idade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Raca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataDeEntrada)
+            </td>
+            
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CaoId">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.CaoId">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.CaoId">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

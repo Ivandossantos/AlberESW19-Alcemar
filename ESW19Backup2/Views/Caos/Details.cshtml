@@ -1,0 +1,56 @@
+﻿@model ESW19Backup2.Models.Cao
+
+@{
+    ViewData["Titulo"] = "Detalhes";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+
+<div>
+  
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Idade)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Idade)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Raca)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Raca)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Saude.Estado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Saude.Estado.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Saude.DataVacina)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Saude.DataVacina)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.CaoId">Editar</a> |
+    <a asp-action="IndexAdmin">Voltar a Lista</a>
+</div>
+</body>
+</html>

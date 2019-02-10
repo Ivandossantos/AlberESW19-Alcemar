@@ -1,0 +1,52 @@
+﻿@model ESW19Backup2.Models.Saude
+@{
+    ViewData["Titulo"] = "Marcar a Vacinas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<fieldset>
+    <legend>Marcar</legend>
+    <div class="col-md-4 col-lg-4 left-info" style="   width: 500px;
+   height: 300px;
+   position: relative;
+   left: 50%;
+   margin-left: -250px;">
+        <form asp-action="MarcarVacina" method="post" id="btnConfirmar">
+
+            <div class="col-md-12 col-lg-12">
+              
+                <div class="form-group">
+                    <label asp-for="Cao" class="control-label"></label>
+                    <input type="number" asp-for="CaoId" placeholder="insira o Id do Cão" class="form-control" id="CandidaturaId" data-toggle="tooltip" data-placement-md="right" data-placement-xs="top" data-html="true">
+                    <span asp-validation-for="CaoId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Estado" class="control-label"></label>:
+                    <select typeof="text" asp-for="Estado.Nome" class="form-control"
+                            asp-items="@(new SelectList(ViewBag.ListaEstados))"></select>
+                    <span asp-validation-for="Estado.Nome" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DataVacina"></label>
+                    <input type="datetime-local" asp-for="DataVacina" class="form-control" id="DataEntrevista" data-toggle="tooltip" data-placement-md="right" data-placement-xs="top"  data-html="true">
+                    <span asp-validation-for="DataVacina" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="clearfix botoes">
+                <button type="submit" class="pull-right" id="btnConfirmar" style="margin-bottom: 20px;">Confirmar</button>
+                <button type="button" onclick="location.href='@Url.Action("Index", "Saude")'" class="pull-right" id="btnVoltar">Voltar</button>
+            </div>
+        </form>
+    </div>
+   
+</fieldset>
+<br />
+
+
+
+
+
+
+
+

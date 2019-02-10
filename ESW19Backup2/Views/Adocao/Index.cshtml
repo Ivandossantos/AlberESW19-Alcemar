@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ESW19Backup2.Models.Adocao>
+
+@{
+ViewData["Titulo"] = "Lista de Adoções de Cães";
+//Layout = "~/Views/Shared/_LayoutAutenticacao.cshtml";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AdocaoId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeCao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AdocaoId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefone)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.NomeCao)
+                </td>
+                <td>
+                    @*<a asp-action="Edit" asp-route-id="@item.AdocaoId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.AdocaoId">Delete</a>*@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

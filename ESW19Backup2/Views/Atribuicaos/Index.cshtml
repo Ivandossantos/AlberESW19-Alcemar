@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ESW19Backup2.Models.Atribuicao>
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FuncionarioId)
+                </th>
+          
+            <th>
+                @Html.DisplayNameFor(model => model.Horario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tarefa)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FuncionarioId)
+            </td>
+          
+            <td>
+                @Html.DisplayFor(modelItem => item.Horario.HorariosID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tarefa.TarefaID)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AtribuicaoId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.AtribuicaoId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.AtribuicaoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

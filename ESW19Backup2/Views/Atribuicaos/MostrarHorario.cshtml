@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ESW19Backup2.Models.Atribuicao>
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+
+    <p>
+        <button><a asp-action="Criar">Associar Horario</a></button>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Funcionarios.Nome)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Horario)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tarefa)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Funcionarios.Nome)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Horario.Hora)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tarefa.Nome)
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

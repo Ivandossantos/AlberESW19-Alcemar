@@ -1,0 +1,93 @@
+﻿@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ALBERCOOL</title>
+
+            @Html.Partial("_Favicons")
+            <link rel="stylesheet" type="text/css" href="~/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+            <link rel="stylesheet" type="text/css" href="~/lib/DataTables/datatables.min.css" />
+            <link rel="stylesheet" type="text/css" href="~/lib/kartik-v-bootstrap-fileinput-47c6347/css/fileinput.min.css" />
+            <link rel="stylesheet" type="text/css" href="~/lib/jquery-ui-1.12.1/jquery-ui.min.css" />
+            <link rel="stylesheet" type="text/css" href="~/styles/main.css">
+
+            <script src="~/lib/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+            <script src="~/lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+            <script src="~/lib/DataTables/datatables.min.js"></script>
+            <script src="~/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+            <script src="~/lib/kartik-v-bootstrap-fileinput-47c6347/js/plugins/piexif.min.js"></script>
+            <script src="~/lib/kartik-v-bootstrap-fileinput-47c6347/js/plugins/sortable.js"></script>
+            <script src="~/lib/kartik-v-bootstrap-fileinput-47c6347/js/plugins/purify.min.js"></script>
+            <script src="~/lib/kartik-v-bootstrap-fileinput-47c6347/js/fileinput.min.js"></script>
+            <script src="~/lib/kartik-v-bootstrap-fileinput-47c6347/js/locales/pt.js"></script>
+        </head>
+        <body>
+            <!--Menu da aplicação -->
+            <!-- <div class="logo-container"><img src="images/log4.png" alt="Abercool" /></div>-->
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+
+                        <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"><img src="~/images/47575576_1942121352749696_8494968089081806848_n.png" style="margin-top: -20px; height: 50px;" /></a>
+
+
+
+
+
+                        @*<li><a asp-area="" asp-controller="Funcionarios" asp-action="Index">FUNCIONARIO</a></li>*@
+                        <li><a asp-area="" asp-controller="Image" asp-action="Add">GALERIA</a></li>
+                        @if (SignInManager.IsSignedIn(User))
+                            {
+                        @*<li><a asp-area="" asp-controller="Home" asp-action="Index">COMO AJUDAR</a></li>*@
+                        @*<li><a asp-area="" asp-controller="Funcionario" asp-action="Index">FUNCIONARIO</a></li>
+            <li><a asp-area="" asp-controller="Image" asp-action="Add">GALERIA</a></li>*@
+                        <li><a asp-area="" asp-controller="Atribuicaos" asp-action="AssociarHorario">Associar Horario</a></li>
+                        @*<li><a asp-area="" asp-controller="Home" asp-action="Index">CONTACTOS</a></li>*@
+                            }
+                    </ul>
+
+                    @await Html.PartialAsync("_LoginPartial");
+
+                </div>
+               
+
+                @*<div>
+                <img id="autenticacaoImg" class="img-responsive" style=" max-width: 40%; position: fixed; bottom: 20px; right: 20px;"
+                     src="~/images/Group-of-dogs-sitting-against-white-background-000021142304_Large_7c0d4dfc-a514-48a2-b7bb-46fd975306a7.png" />
+            </div>*@
+            </nav>
+
+            <div class="logo-container">
+                @RenderBody()
+                <hr />
+                <footer>
+                    <p>&copy; 2018 - ESW_19</p>
+                </footer>
+            </div>
+            <environment include="Development">
+                <script src="~/lib/jquery/dist/jquery.js"></script>
+                <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+                <script src="~/js/site.js" asp-append-version="true"></script>
+            </environment>
+            <environment exclude="Development">
+                <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                        asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                        asp-fallback-test="window.jQuery"
+                        crossorigin="anonymous"
+                        integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+                </script>
+                <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                        asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                        asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                        crossorigin="anonymous"
+                        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+                </script>
+                <script src="~/js/site.min.js" asp-append-version="true"></script>
+            </environment>
+            @RenderSection("Scripts", required: false)
+        </body>
+    </html>

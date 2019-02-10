@@ -1,0 +1,579 @@
+﻿@model IEnumerable<ESW19Backup2.Models.Cao>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+   ViewBag.Title = "Cao";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+
+<style>
+
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    /* Set a style for all buttons */
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+    }
+
+    /* Center the image and position the close button */
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: relative;
+    }
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        padding-top: 60px;
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+    }
+
+    
+</style>
+
+
+<body>
+   
+    <center> <h1>Os nossos cães</h1></center>
+    <center> <h2>Disponiveis para adoção</h2> </center>
+
+    @*<label style="margin-top: 50px; margin-left: 50px">@ViewData["fname"]</label><br />*@
+  
+
+    <div class="figure" style="cursor:pointer; float:right; ">
+        <p>  <img src="~/images/5-Mitos-sobre-caes-MundoPet-LupusAlimentos.jpg" style="width:350px; height:350px;" onclick="document.getElementById('id04').style.display='block'" /></p>
+        <p>Rex</p>
+    </div>
+    <div class="figure" style="cursor:pointer; float:right; margin-right: 20px">
+        <p>  <img src="~/images/inteligencia-dos-caes.jpg" style="width:350px; height:350px;" onclick="document.getElementById('id01').style.display='block'" /></p>
+        <p>Princesa</p>
+    </div>
+    <div class="figure" style="cursor:pointer; float:left">
+        <p>  <img src="~/images/cães-riem.jpg" style="width:350px; height:350px;" onclick="document.getElementById('id05').style.display='block'" /></p>
+        <p>Key</p>
+    </div>
+    <div class="figure" style="cursor:pointer; float:left; margin-left: 20px;">
+        <p>  <img src="~/images/cao-1024.jpg" style="width:350px; height:350px;" onclick="document.getElementById('id06').style.display='block'" /></p>
+        <p>Flexa</p>
+    </div>
+   
+  
+    <div class="figure" style="cursor:pointer; float:left ">
+        <p> <img src="~/images/dog-1210559.jpg" style="width:350px; height:350px;" onclick="document.getElementById('id07').style.display='block'" /></p>
+        <p> Zeus</p>
+    </div>
+    
+    <div class="figure" style="cursor:pointer; float:left; margin-left:20px ">
+        <p> <img src="~/images/image[454].jpg" style="width:350px; height:350px;" onclick="document.getElementById('id02').style.display='block'" /></p>
+        <p> Mel</p>
+    </div>
+
+  
+
+    <div class="figure" style="cursor:pointer; float:right ">
+        <p>
+            <img src="~/images/mw-860.webp" style="width:350px; height:350px;" onclick="document.getElementById('id09').style.display='block'" />
+        </p>
+        <p>Layca</p>
+    </div>
+    <div class="figure" style="cursor:pointer; text-align:center; ">
+            <p>
+                <img src="~/images/rescue-dogs_articleV3.png" style="width:350px; height:350px;" onclick="document.getElementById('id10').style.display='block'" />
+            </p>
+            <p>Simba</p>
+        </div>
+    <div class="figure" style="cursor:pointer; float:left ">
+            <p>
+                <img src="~/images/imagens-caes-2.jpg" style="width:350px; height:350px;" onclick="document.getElementById('id08').style.display='block'" />
+            </p>
+            <p>Donzela</p>
+        </div> 
+    
+    <div class="figure" style="cursor:pointer; float:left; margin-left:20px ">
+            <p>
+                <img src="~/images/Cirurgia-plastica-para-caes.jpg" style="width:350px; height:350px;" onclick="document.getElementById('id11').style.display='block'" />
+            </p>
+            <p>Xanana</p>
+        </div>
+
+    @*<label>@ViewData["fname"]</label></br>
+        <img src=" @ViewData["fileLocation"]" style="width:400px; height:200px;"/>*@
+
+
+
+    @*<input type="button" value="Create" onclick="location.href='@Url.Action("Add_Next", "Image")'" />*@
+    @*<center> <img src="~/images/sign-next.png" style="width:100px; height:40px;margin-top:20px; cursor:pointer" onclick="location.href='@Url.Action("Add_Next", "Image")'" /></center>*@
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/inteligencia-dos-caes.jpg" style="height:330px; float:right" />
+                <h1>Ola eu sou a <strong> princesa </strong></h1>
+                <p>Eu sou uma menina, como já devem ter visto</p>
+                <p>Eu tenho 1 ano e 3 mêses</p>
+                <p>Eu sou uma <strong>PEMBROKE WELSH CORGI</strong> </p>
+                <a href ="Caos/Details/1"> Mais Info</a>
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                
+
+            </div>
+
+            <div class="container" style="margin-bottom: 20px">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button style="width: 100px" class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id01').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button style="width: 200px" class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Princesa"} )'">
+                                Adotar
+                            </button>
+                        </div>
+                        <div>
+                            <button style="width: 300px" class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Princesa" })'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+</form>
+    </div>
+
+    <div id="id02" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/image[454].jpg" style="height:330px;  float:right" />
+                <h1>Ola eu sou a <strong> Mel </strong></h1>
+                <p>Eu sou uma menina, como já devem ter visto</p>
+                <p>Eu tenho 9 mêses</p>
+                <p>Eu sou uma <strong>BICHON MALTÊS</strong> </p>
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                <a href="Caos/Details/2"> Mais Info</a>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id02').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Mel"} )'">
+                                Adotar
+                            </button>
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Mel" })'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+        </form>
+    </div>
+
+    <div id="id03" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/Cirurgia-plastica-para-caes.jpg" style="height:300px; float:right" />
+                <h1>Ola eu sou o <strong> Win </strong></h1>
+                <p>Eu sou um menino, como já devem ter visto</p>
+                <p>Eu tenho 4 anos e 2 mêses</p>
+                <p>Eu sou um <strong>LABRADOR RETRIEVER</strong> </p>
+                <p>O AlberCool cuida de mim desde quando eu tinha 2 mêses, e sou muito grato a eles</p>
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                <a href="Caos/Details/3"> Mais Info</a>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id03').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Win"} )'">
+                                Adotar
+                            </button>
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Win"} )'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+        </form>
+    </div>
+
+    <div id="id04" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/5-Mitos-sobre-caes-MundoPet-LupusAlimentos.jpg" style="height:300px; float:right" />
+                <h1>Ola eu sou o <strong>Rex</strong></h1>
+
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                <a href="Caos/Details/4"> Mais Info</a>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id04').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Rex"} )'">
+                                Adotar
+                            </button>
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Rex"} )'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+        </form>
+    </div>
+
+    <div id="id05" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/cães-riem.jpg" style="height:300px; float:right" />
+                <h1>Ola eu sou o <strong>Key</strong></h1>
+
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                <a href="Caos/Details/5"> Mais Info</a>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id05').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Key"} )'">
+                                Adotar
+                            </button>
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Key"} )'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+        </form>
+    </div>
+
+    <div id="id06" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/cao-1024.jpg" style="height:300px; float:right" />
+                <h1>Ola eu sou o <strong>Flexa</strong></h1>
+
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                <a href="Caos/Details/6"> Mais Info</a>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id06').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Flexa"} )'">
+                                Adotar
+                            </button>
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Flexa"} )'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+        </form>
+    </div>
+
+    <div id="id07" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/dog-1210559.jpg" style="height:300px; float:right" />
+                <h1>Ola eu sou o <strong>Zeus</strong></h1>
+
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                <a href="Caos/Details/7"> Mais Info</a>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id07').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Zeus"} )'">
+                                Adotar
+                            </button>
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Zeus"} )'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+        </form>
+    </div>
+
+    <div id="id08" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/imagens-caes-2.jpg" style="height:300px; float:right" />
+                <h1>Ola eu sou a <strong>Dozela</strong></h1>
+
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                <a href="Caos/Details/8"> Mais Info</a>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id08').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Dozela"} )'">
+                                Adotar
+                            </button>
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Dozela"} )'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+        </form>
+    </div>
+
+    <div id="id09" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/mw-860.webp" style="height:300px; float:right" />
+                <h1>Ola eu sou a <strong>Layca</strong></h1>
+
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                <a href="Caos/Details/9"> Mais Info</a>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id09').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Layca"} )'">
+                                Adotar
+                            </button>
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Layca"} )'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+        </form>
+    </div>
+
+    <div id="id10" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/rescue-dogs_articleV3.png" style="height:300px; float:right" />
+                <h1>Ola eu sou o <strong> Simba </strong></h1>
+
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                <a href="Caos/Details/10"> Mais Info</a>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id10').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Simba"} )'">
+                                Adotar
+                            </button>
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Simba"} )'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+        </form>
+    </div> 
+    
+    <div id="id11" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php">
+
+            <div>
+                <img src="~/images/Cirurgia-plastica-para-caes.jpg" style="height:300px; float:right" />
+                <h1>Ola eu sou o <strong> Xanana </strong></h1>
+
+                <h2>Venha nos visitar, e passar um tempinho connosco</h2>
+                <a href="Caos/Details/11"> Mais Info</a>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <button class="btn btn-danger btn-sx" type="button" onclick="document.getElementById('id11').style.display='none'">Sair</button>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Adocao", new { nomeCao = "Xanana"} )'">
+                                Adotar
+                            </button>
+                            <button class="btn btn-primary btn-sx" type="button" onclick="location.href='@Url.Action("Create", "Apadrinhar", new { nomeCao = "Xanana"} )'">
+                                Apadrinhar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                &nbsp;
+                &nbsp;
+            </div>
+        </form>
+    </div>
+
+
+    <script>
+        // Get the modal
+        var modal1 = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+        }
+
+        // Get the modal
+        var modal2 = document.getElementById('id02');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+        }
+
+        var modal = document.getElementById('id03');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+
+    </script>
+
+</body>
+
+

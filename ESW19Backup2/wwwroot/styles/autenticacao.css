@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /*background: url("../images/bg1.jpg");*/
+    font-family: "Helvetica", Times, serif;
+    background-color: #efefe7;
+}
+
+#topo {
+    background-color: white;
+    width: 100%;
+}
+
+#topo h1 {
+    float: left;
+    line-height: 117px;
+    font-size: 32px;
+}
+
+#logo {
+    min-width: 270px;
+    min-height: 157px;
+}
+
+#autenticacao {
+    clear: both;
+}
+
+#autenticacaoImg {
+    max-width: 40%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#mg {
+    padding-top: 50px;
+    z-index: 1000;
+    position: relative;
+}
+
+.form-control {
+    /*padding: 18px; */
+    height: 40px;
+}
+
+.username {
+    background: white url("../images/user2.png") no-repeat scroll 7px 7px;
+    padding: 0 40px;
+}
+
+.password {
+    background: white url("../images/pw.png") no-repeat scroll 7px 7px;
+    padding: 0 40px;
+}
+
+#mg button {
+    width: 100%;
+    background-color: #496886;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+#mg button:hover {
+    opacity: 0.8;
+}
+
+
+#outros {
+    margin-top: 5px;
+    color: black;
+    text-align: center;
+}
+
+#outros a {
+    text-decoration: none;
+    color: black;
+}
+
+#outros a:hover {
+    opacity: 0.8;
+}
+
+.tooltip-inner {
+    max-width: 300px;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    z-index: 999;
+    position: relative;
+}
+
+.help {
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
+
+@media(max-width: 1060px) {
+    .custom {
+        padding-right: 75px;
+    }
+}
+
+@media(max-width:768px) {
+    #autenticacaoImg {
+        display: none;
+    }
+}
+
+@media(max-width:520px) {
+    #topo h1 {
+        line-height: normal;
+        font-size: 24px;
+    }
+}

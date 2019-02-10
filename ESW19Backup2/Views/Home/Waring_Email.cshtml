@@ -1,0 +1,16 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ESW19Backup2.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+@{
+    ViewData["Title"] = "Waring_Email";
+}
+
+<h1>Registo</h1>
+
+<h2>O seu email @UserManager.GetUserName(User) foi registado com sucesso</h2>
+
+<p> Por favor verifique no seu email, para que possa prosseguir com o seu registo</p>
+

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALBERCOOL</title>
+    @Html.Partial("_Favicons")
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/jquery-ui-1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/styles/autenticacao.css">
+
+    <script src="~/lib/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+    <script src="~/lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="~/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <script src="~/js/site.js"></script>
+</head>
+<body>
+    <div id="topo">
+        <div class="container custom">
+            <div class="col-sm-7 col-md-9 ">
+                <h1>@ViewData["Titulo"] <img src="~/images/help2.png" class="icon help" data-toggle="modal" data-target="#ModalAjuda" /> </h1>
+            </div>
+            <div class="col-sm-5 col-md-3">
+                <a href="@Url.Action("Index", "Home")"><img id="logo" src="~/images/favicons/47575576_1942121352749696_8494968089081806848_n.png" alt="logo" style="width:400px; height:50px"/></a>
+            </div>
+        </div>
+    </div>
+    <div id="autenticacao">
+        <div class="container" id="mg">
+            <div class="row">
+                @{
+                    @Html.Partial("_ResultMessage")
+                }
+                <div class="col-sm-6 col-md-5 col-lg-4">
+                    <!--<div asp-validation-summary="All" class="text-danger"></div>-->
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+        <img id="autenticacaoImg" class="img-responsive" src="~/images/Group-of-dogs-sitting-against-white-background-000021142304_Large_7c0d4dfc-a514-48a2-b7bb-46fd975306a7.png" />
+    </div>
+    @Html.Partial("_HelpModal")
+    <script type="text/javascript" src="~/js/site.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

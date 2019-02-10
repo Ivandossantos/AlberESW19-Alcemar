@@ -1,0 +1,288 @@
+﻿@model ESW19Backup2.Models.Voluntario
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    .av_slideshow_full.zapp-slideshow {
+        margin: 0;
+    }
+
+    .main_color div {
+        border-color: #e1e1e1;
+    }
+
+    .zapp-slideshow {
+        position: relative;
+        width: 100%;
+        clear: both;
+        overflow: hidden;
+    }
+
+    div {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    div {
+        display: block;
+    }
+
+    .main_color, .main_color .site-background, .main_color .first-quote, .main_color .related_image_wrap, .main_color .gravatar img .main_color .hr_content, .main_color .news-thumb, .main_color .post-format-icon, .main_color .ajax_controlls a, .main_color .tweet-text.avatar_no, .main_color .toggler, .main_color .toggler.activeTitle:hover, .main_color #js_sort_items, .main_color.inner-entry, .main_color .grid-entry-title, .main_color .related-format-icon, .grid-entry .main_color .zapp-arrow, .main_color .zapp-gallery-big, .main_color .zapp-gallery-big, .main_color .zapp-gallery img, .main_color .grid-content, .main_color .av-share-box ul, #top .main_color .av-related-style-full .related-format-icon, .main_color .related_posts.av-related-style-full a:hover, .main_color.zapp-fullwidth-portfolio .pagination .current, .main_color.zapp-fullwidth-portfolio .pagination a, .main_color .av-hotspot-fallback-tooltip-inner, .main_color .av-hotspot-fallback-tooltip-count {
+        background-color: #ffffff;
+        color: black;
+    }
+
+
+    html {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    ::selection {
+        background-color: #109bc5;
+        color: #ffffff;
+    }
+
+    .zapp_transform .av_slideshow_full .active-slide .zapp-caption-title {
+        visibility: visible;
+        animation: caption-left 1s 1 cubic-bezier(0.985,0.005,0.265,1);
+    }
+
+    .caption_framed .slideshow_caption .zapp-caption-title {
+        background: rgba(0,0,0,0.5);
+        display: inline-block;
+        margin: 0 0 1px 0;
+        padding: 10px 15px;
+    }
+
+    div .slideshow_caption h2 {
+        color: #fff;
+    }
+
+    div .slideshow_caption h2 {
+        text-transform: uppercase;
+    }
+
+    .main_color h2 {
+        border-color: #e1e1e1;
+    }
+
+    h2 {
+        font-family: 'quicksand','HelveticaNeue','Helvetica Neue','Helvetica-Neue',Helvetica,Arial,sans-serif;
+        line-height: 1.1em;
+        font-weight: 600;
+        font: inherit;
+        vertical-align: baseline;
+        border: 0;
+        margin-top: 0.83em;
+        margin-bottom: 0.83em;
+    }
+
+    .zapp-slideshow li {
+        list-style-type: none;
+        list-style-position: outside;
+    }
+
+    ul {
+        list-style: none outside;
+    }
+
+    .slideshow_align_caption {
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+    }
+
+    .av_slideshow_full .container.caption_container {
+        position: relative;
+        top: 0;
+        z-index: 5;
+        height: 100%;
+        left: 0%;
+        overflow: visible;
+    }
+
+    .responsive .container {
+        max-width: 1310px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 50px;
+        clear: both;
+    }
+</style>
+
+
+
+<div id="av_section_1" class="zapp-section main_color zapp-section-default zapp-no-shadow zapp-full-stretch zapp-bg-style-scroll  zapp-builder-el-0  el_before_av_one_full  zapp-builder-el-first   av-minimum-height av-minimum-height-custom container_wrap fullsize" style="background-repeat:no-repeat;background-image:url(http://www.danielasousaphotography.com/wp/wp-content/uploads/2016/10/Vanda_Strike-1-2-1200x800.jpg);width: 1400px; background-attachment:scroll;background-position:center center" data-section-bg-repeat="stretch">
+
+    <div class="flex_column av_one_full  flex_column_div av-zero-column-padding first  zapp-builder-el-2  el_before_av_hr  zapp-builder-el-first  " style="border-radius:0px; ">
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+            <div class="zapp_textblock  " itemprop="text">
+                <h4 style="text-align: center; float:left"><strong>O voluntariado é uma área importante para a AlberCool.</strong></h4>
+                <h4 style="text-align: center;"></h4>
+            </div>
+        </section>
+    </div>
+    <div style="height:20px" class="hr hr-invisible   zapp-builder-el-4  el_after_av_one_full  el_before_av_one_full "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+
+    <div class="flex_column av_one_full  flex_column_div av-zero-column-padding first  zapp-builder-el-5  el_after_av_hr  el_before_av_hr  " style="border-radius:0px; ">
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+            <div class="zapp_textblock  " itemprop="text">
+                @*<h4 style="text-align: center; float:left"><strong>Seja no apoio directo com os animais, na participação em eventos de sensibilização ou noutras áreas,</strong></h4>*@
+                <h4 style="text-align: center;"></h4>
+            </div>
+        </section>
+    </div>
+
+    <div style="height:10px" class="hr hr-invisible   zapp-builder-el-7  el_after_av_one_full  el_before_av_one_full "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+
+    <div class="flex_column av_one_full  flex_column_div av-zero-column-padding first  zapp-builder-el-8  el_after_av_hr  el_before_av_hr  " style="border-radius:0px; ">
+        <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+            <div class="zapp_textblock  " itemprop="text">
+                <h4 style="text-align: center; float:left"><strong>O SEU CONTRIBUTO É FUNDAMENTAL.</strong></h4>
+                <h4 style="text-align: center;"></h4>
+            </div>
+        </section>
+    </div>
+
+    <div style="height:20px" class="hr hr-invisible   zapp-builder-el-10  el_after_av_one_full  el_before_av_one_half "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+
+    <div class="flex_column_table av-equal-height-column-flextable -flextable" style="margin-top:30px; margin-bottom:30px; ">
+
+        <div class="av-flex-placeholder"></div><div class="flex_column av_one_half  flex_column_table_cell av-equal-height-column av-align-top   zapp-builder-el-13  el_after_av_one_half  el_before_av_hr  " style="border-width:2px; border-color:#0070e8; border-style:solid; padding:10px; border-radius:30px; width:400px ">
+            <section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+                <div class="zapp_textblock  " itemprop="text">
+                    <h4 style="text-align: center; float:left"></h4>
+                    <h4 style="text-align: center;">Conheça <a href="https://localhost:44389/Evento/Index2" target="_blank" rel="noopener"><span style="color: #0000ff;"><strong>AQUI</strong> </span></a>os eventos da AlberCool.</h4>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <div style="height:20px" class="hr hr-invisible   zapp-builder-el-10  el_after_av_one_full  el_before_av_one_half "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+    <div style="height:20px" class="hr hr-invisible   zapp-builder-el-10  el_after_av_one_full  el_before_av_one_half "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+    <div style="height:20px" class="hr hr-invisible   zapp-builder-el-10  el_after_av_one_full  el_before_av_one_half "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+    <div style="height:20px" class="hr hr-invisible   zapp-builder-el-10  el_after_av_one_full  el_before_av_one_half "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+
+</div>
+
+<div class="hr hr-default   zapp-builder-el-15  el_after_av_one_half  el_before_av_textblock "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+
+<section class="av_textblock_section " itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+    <div class="zapp_textblock  " itemprop="text">
+        <h1 style="text-align: center;"><strong>Áreas de Voluntariado na AlberCool</strong></h1>
+    </div>
+</section>
+
+<div class="flex_column av_three_fifth  flex_column_div av-zero-column-padding first  zapp-builder-el-17  el_after_av_textblock  el_before_av_two_fifth  column-top-margin" style="border-radius:0px; float:left; ">
+    <article class="iconbox iconbox_left    zapp-builder-el-18  zapp-builder-el-no-sibling  " itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+        <div class="iconbox_content">
+            <header class="entry-content-header" style="color: red"><div class="iconbox_icon heading-color " aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></div><h3 class="iconbox_content_title " itemprop="headline">1- APOIO DIRECTO AO ANIMAL DE COMPANHIA</h3></header><div class="iconbox_content_container  " itemprop="text">
+                <p>
+                    <strong>• Apadrinhar animais nos nossos abrigos, AMIAMA e IZQC , na Amadora e em Tercena</strong><br>
+                    <strong> • Passeá-los, proceder a cuidados de higiene, promover a sua adopção.</strong><br>
+                    <strong> • Ajudar nos cuidados veterinários; tratamentos, medicação, transporte hospital etc.</strong><br>
+                    <strong> • Atendimento do público e trabalho de secretaria.</strong><br>
+                    <strong> • Participar nas campanhas de recolha de alimentos em hipermercados e outros.</strong><br>
+                    <strong> • Promover eventos para dinamizar a associação, angariar fundos e associados.</strong><br>
+                    <strong> • Tornar-se F.A.T. (família de acolhimento temporária) para situações pontuais ou de emergência.</strong>
+                </p>
+            </div>
+        </div><footer class="entry-footer"></footer>
+    </article>
+</div>
+
+<div class="flex_column av_three_fifth  flex_column_div av-zero-column-padding   zapp-builder-el-24  el_after_av_two_fifth  zapp-builder-el-last  " style="border-radius:0px; float:right;">
+    <article class="iconbox iconbox_left    zapp-builder-el-25  zapp-builder-el-no-sibling  " itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+        <div class="iconbox_content">
+            <header class="entry-content-header" style="color: green"><div class="iconbox_icon heading-color " aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></div><h3 class="iconbox_content_title " itemprop="headline">2- EDUCAÇÃO / SENSIBILIZAÇÃO</h3></header><div class="iconbox_content_container  " itemprop="text">
+                <p>
+                    <strong>• Ir às escolas/Universidades projectar vídeos e ser orador em palestras.</strong><br>
+                    <strong> • Promover, junto da camada estudantil, palestras e debates sobre a problemática animal e Natureza.</strong><br>
+                    <strong> • Organizar e/ou participar em exposições.</strong><br>
+                    <strong> • Ajudar na promoção de material didáctico e informativo.</strong><br>
+                    <strong> • Ser moderador/a no fórum do nosso site na parte educativa e científica.</strong>
+                </p>
+            </div>
+        </div><footer class="entry-footer"></footer>
+    </article>
+</div>
+
+<div class="flex_column av_three_fifth  flex_column_div av-zero-column-padding   zapp-builder-el-24  el_after_av_two_fifth  zapp-builder-el-last  " style="border-radius:0px; float:center;margin-top:230px">
+    <article class="iconbox iconbox_left    zapp-builder-el-25  zapp-builder-el-no-sibling  " itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+        <div class="iconbox_content">
+            <header class="entry-content-header" style="color:blue"><div class="iconbox_icon heading-color " aria-hidden="true" data-av_icon="" data-av_iconfont="entypo-fontello"></div><h3 class="iconbox_content_title " itemprop="headline">3- WEB-DESIGNER / DESIGNER GRÁFICO</h3></header><div class="iconbox_content_container  " itemprop="text">
+                <p>
+                    <strong>• Material informativo (folhetos/cartazes/vídeos e outros) e desenhos.</strong><br>
+                    <strong> •Colaborar na actualização do site.</strong>
+                </p>
+            </div>
+        </div><footer class="entry-footer"></footer>
+    </article>
+</div>
+
+<div style="height:20px" class="hr hr-invisible   zapp-builder-el-10  el_after_av_one_full  el_before_av_one_half "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div style="height:20px" class="hr hr-invisible   zapp-builder-el-10  el_after_av_one_full  el_before_av_one_half "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div style="height:20px" class="hr hr-invisible   zapp-builder-el-10  el_after_av_one_full  el_before_av_one_half "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+<div style="height:20px" class="hr hr-invisible   zapp-builder-el-10  el_after_av_one_full  el_before_av_one_half "><span class="hr-inner "><span class="hr-inner-style"></span></span></div>
+
+<h1 style="text-align: center;"><strong>Preença o quadro abaixo, e venha ser voluntario da AlberCool</strong></h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Telefone" class="control-label"></label>
+                <input asp-for="Telefone" class="form-control" />
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profissao" class="control-label"></label>
+                <input asp-for="Profissao" class="form-control" />
+                <span asp-validation-for="Profissao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AreaId" class="control-label"></label>
+                <select asp-for="AreaId" class="form-control" asp-items="ViewBag.AreaId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
